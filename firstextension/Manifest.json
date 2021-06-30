@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+    "name":"my first ever extensions",
+    "description":"just a simple app",
+    "version":"1.0",
+    "icons":{
+        "128":"16.png",
+        "48":"48.png",
+        "16":"16.png"
+    },
+    "browser_action":{
+        "default_icons":"16.png",
+        "default_popup":"popup.html"
+    },
+    "permissions": [
+        "storage"
+      ]
+}
